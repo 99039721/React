@@ -105,3 +105,83 @@ a {
     color-scheme: dark;
   }
 }
+
+.MenuHeader {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.vegan {
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(38, 38, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: white;
+  border-color: red;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 250px;
+  height: 500px;
+  gap: 10px;
+  background-color: white;
+  /* display: flex; */
+  /* justify-content: space-between;
+  align-content: space-between; */
+  color: black;
+  padding: 20px;
+}
+
+.zurag {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btext {
+  margin-top: 20px;
+}
+
+.MenuFooter {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.price {
+  font-size: 20px;
+}
